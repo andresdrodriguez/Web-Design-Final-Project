@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="fitness" type="boolean" value="false" -->
+<!-- TemplateParam name="nutrition" type="boolean" value="false" -->
+<!-- TemplateParam name="rest" type="boolean" value="false" -->
+<!-- TemplateParam name="motivation" type="boolean" value="false" -->
+<!-- TemplateParam name="stress" type="boolean" value="false" -->
+</head>
+
+<body>
+<h1 align="center">Living Healthy</h1>
+
+
+<div class="navigation">
+
+  <div align="center">
+    <ul>
+      <li><a href="../index.html">Homepage</a></li>
+      <li><a href="../fitness/index.html">Fitness</a></li>
+      <li><a href="../motivation/index.html">Motivation</a></li>
+      <li><a href="../managing-stress/index.html">Managing Stress</a></li>
+      <li><a href="../nutrition/index.html">Nutrition</a></li>
+      <li><a href="../proper-rest/index.html">Proper Rest</a></li>
+    </ul>
+    
+  </div>
+</div>
+
+<div class="column1">
+<div align="center">Menu </div>
+<div class="lowerlevel">
+  	<!-- TemplateBeginIf cond="fitness" -->
+  		<ul><li><a href="../fitness/strength.html">Strength Training</a></li>
+  		  <li><a href="../fitness/cardio.html">Cardio</a>  	</li>
+	</ul>
+  	<!-- TemplateEndIf --><!-- TemplateBeginIf cond="nutrition" -->
+<ul>
+  <li><a href="../nutrition/macro.html">Macro-nutrients</a>
+    </li>
+  <li><a href="../nutrition/micro.html">Micro-nutrients</a>
+</li>
+</ul>
+  	<!-- TemplateEndIf --><!-- TemplateBeginIf cond="rest" -->
+    	<ul>
+    	  <li><a href="../proper-rest/sleep.html">Sleep</a>
+	</li>
+    	</ul>
+  	<!-- TemplateEndIf --><!-- TemplateBeginIf cond="motivation" -->
+	<ul>
+	  <li><a href="../motivation/music.html">Music</a></li>
+	  <li><a href="../motivation/track-progress.html">Track Progress</a>
+  	</li>
+	</ul>
+  	<!-- TemplateEndIf --><!-- TemplateBeginIf cond="stress" -->
+  		<ul>
+  		  <li><a href="../managing-stress/meditation.html">Meditation</a></li>
+  		  <li><a href="../managing-stress/organized.html">Organized</a>
+  	</li>
+  		</ul>
+  <!-- TemplateEndIf --></div>
+</div>
+
+
+
+
+
+<div class="column2">
+	
+ 
+  <div align="center"><!-- TemplateBeginEditable name="content" -->
+      <h2>content</h2>
+    <!-- TemplateEndEditable --></div>
+ 
+<!-- TemplateBeginEditable name="EditRegion4" -->
+
+<p>EditRegion4</p>
+
+
+<!-- TemplateEndEditable -->
+
+
+</div>
+
+</body>
+</html>
